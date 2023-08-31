@@ -1,0 +1,204 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "StringEquality",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.StringEquality",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "StringImmutability",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.StringImmutability",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "StringConcatenation",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.StringConcatenation",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "Strings",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.Strings",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "CharacterArithmetic",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.CharacterArithmetic",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "ObjectEquality",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ObjectEquality",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "EqualityOperators",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.EqualityOperators",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "ConditionalOperators",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ConditionalOperators",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "RelationalOperators",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.RelationalOperators",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "CompoundAssignmentOperators",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.CompoundAssignmentOperators",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "AssignmentOperators",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.AssignmentOperators",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "UnaryOperators",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.UnaryOperators",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "NumericPromotion",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.NumericPromotion",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "ArithmeticOperators",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ArithmeticOperators",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "WrapperTypes",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.WrapperTypes",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "ConflictExample",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ConflictExample",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "DecimalNumericPrimitives",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.DecimalNumericPrimitives",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "DeclaringAndInitializingVariables",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.DeclaringAndInitializingVariables",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "DefaultInitialization",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.DefaultInitialization",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "ImportExample",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ImportExample",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "MainMethod",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.MainMethod",
+      "projectName": "OracleJavaCertification_41157584",
+      "args": ["Oracle", "Java", "Certification"]
+    },
+    {
+      "type": "java",
+      "name": "PrimitivesCharAndBoolean",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.PrimitivesCharAndBoolean",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "StaticImportsExample",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.StaticImportsExample",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "UnderstandingNull",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.UnderstandingNull",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "VariableScope",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.VariableScope",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "WholeNumericPrimitives",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.WholeNumericPrimitives",
+      "projectName": "OracleJavaCertification_41157584"
+    }
+  ]
+}
