@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StaticInitialization",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.StaticInitialization",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "IteratingList",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.IteratingList",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "SortingAndSearchingArrayList",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.SortingAndSearchingArrayList",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "ListArrayConversion",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ListArrayConversion",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "UsingWrappersInList",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.UsingWrappersInList",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
+      "name": "UsingArrayListMethods",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.UsingArrayListMethods",
+      "projectName": "OracleJavaCertification_41157584"
+    },
+    {
+      "type": "java",
       "name": "StringEquality",
       "request": "launch",
       "mainClass": "academy.learnprogramming.StringEquality",
