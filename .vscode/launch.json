@@ -6,45 +6,102 @@
   "configurations": [
     {
       "type": "java",
-      "name": "StaticInitialization",
+      "name": "NestedLoops",
       "request": "launch",
-      "mainClass": "academy.learnprogramming.StaticInitialization",
-      "projectName": "OracleJavaCertification_41157584"
+      "mainClass": "academy.learnprogramming.NestedLoops",
+      "projectName": "OracleJavaCertification_fe237540"
     },
     {
       "type": "java",
-      "name": "IteratingList",
+      "name": "VariableArguments",
       "request": "launch",
-      "mainClass": "academy.learnprogramming.IteratingList",
-      "projectName": "OracleJavaCertification_41157584"
+      "mainClass": "academy.learnprogramming.VariableArguments",
+      "projectName": "OracleJavaCertification_fe237540",
+      "args": ["Java", "8", "is", "cool"]
     },
     {
       "type": "java",
-      "name": "SortingAndSearchingArrayList",
+      "name": "SearchingArrays",
       "request": "launch",
-      "mainClass": "academy.learnprogramming.SortingAndSearchingArrayList",
-      "projectName": "OracleJavaCertification_41157584"
+      "mainClass": "academy.learnprogramming.SearchingArrays",
+      "projectName": "OracleJavaCertification_fe237540"
     },
     {
       "type": "java",
-      "name": "ListArrayConversion",
+      "name": "SortingArrays",
       "request": "launch",
-      "mainClass": "academy.learnprogramming.ListArrayConversion",
-      "projectName": "OracleJavaCertification_41157584"
+      "mainClass": "academy.learnprogramming.SortingArrays",
+      "projectName": "OracleJavaCertification_fe237540"
     },
     {
       "type": "java",
-      "name": "UsingWrappersInList",
+      "name": "ContinueStatement",
       "request": "launch",
-      "mainClass": "academy.learnprogramming.UsingWrappersInList",
-      "projectName": "OracleJavaCertification_41157584"
+      "mainClass": "academy.learnprogramming.ContinueStatement",
+      "projectName": "OracleJavaCertification_fe237540"
     },
     {
       "type": "java",
-      "name": "UsingArrayListMethods",
+      "name": "BreakStatement",
       "request": "launch",
-      "mainClass": "academy.learnprogramming.UsingArrayListMethods",
-      "projectName": "OracleJavaCertification_41157584"
+      "mainClass": "academy.learnprogramming.BreakStatement",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "ForEachLoop",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ForEachLoop",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "CommonArrayProblems",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.CommonArrayProblems",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "UsingArrays",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.UsingArrays",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "WorkingWithArrays",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.WorkingWithArrays",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "StringBuilderMethods",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.StringBuilderMethods",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "StringBuilderExample",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.StringBuilderExample",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "MethodChaining",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.MethodChaining",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "StringMethods",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.StringMethods",
+      "projectName": "OracleJavaCertification_fe237540"
     },
     {
       "type": "java",
