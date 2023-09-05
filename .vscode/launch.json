@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ClassInheritance",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ClassInheritance",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "ImmutableClasses",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ImmutableClasses",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "ImmutableClassesComplex",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ImmutableClassesComplex",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "DataEncapsulation",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.DataEncapsulation",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "OrderOfInitialization",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.OrderOfInitialization",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "ThisvsThisParenthesis",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ThisvsThisParenthesis",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "OverloadingConstructors",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.OverloadingConstructors",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
       "name": "ClassConstructors",
       "request": "launch",
       "mainClass": "academy.learnprogramming.ClassConstructors",

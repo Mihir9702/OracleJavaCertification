@@ -1,12 +1,12 @@
 package academy.learnprogramming;
 
-class Dog {
+class ClassConstructorsDog {
 
   private String name;
   private String color;
   private int age;
   
-  public Dog(String name, String color, int age) { // this is a constructor
+  public ClassConstructorsDog(String name, String color, int age) { // this is a constructor
     System.out.println("constructor");
     this.name = name;
     this.color = color;
@@ -36,7 +36,7 @@ class Dog {
 public class ClassConstructors {
   
   public static void main(String[] args) {
-    Dog dog = new Dog("Roofus", "brown", 13); // this will trigger the constructor
+    ClassConstructorsDog dog = new ClassConstructorsDog("Roofus", "brown", 13); // this will trigger the constructor
 
     dog.printColor();
     dog.changeColor("white");
