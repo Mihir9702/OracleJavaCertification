@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ClassConstructors",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ClassConstructors",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
       "name": "OverloadingMethods",
       "request": "launch",
       "mainClass": "academy.learnprogramming.OverloadingMethods",
