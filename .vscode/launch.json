@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "OverloadingMethods",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.OverloadingMethods",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "ReturningDataFromMethods",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ReturningDataFromMethods",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "PassingDataBetweenMethods",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.PassingDataBetweenMethods",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
       "name": "NestedLoops",
       "request": "launch",
       "mainClass": "academy.learnprogramming.NestedLoops",
