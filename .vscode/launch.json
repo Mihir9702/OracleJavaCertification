@@ -6,6 +6,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TernaryOperator",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.TernaryOperator",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "IfElseStatement",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.IfElseStatement",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "ParsingDateTime",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.ParsingDateTime",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "FormattingDateTime",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.FormattingDateTime",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "UsingPeriod",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.UsingPeriod",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "UsingDateAndTime",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.UsingDateAndTime",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "CreatingDateAndTime",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.CreatingDateAndTime",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "Polymorphism",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.Polymorphism",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "InterfaceDog",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.InterfaceDog",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "AbstractClasses",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.AbstractClasses",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
       "name": "ClassInheritance",
       "request": "launch",
       "mainClass": "academy.learnprogramming.ClassInheritance",

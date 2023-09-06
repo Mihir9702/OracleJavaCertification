@@ -4,6 +4,8 @@ class ClassInheritanceAnimal {
   private int age; 
   private String name; // protected means that it can be accessed by subclasses
 
+  public ClassInheritanceAnimal() {}
+
   public ClassInheritanceAnimal(int age) {
     System.out.println("Animal");
     this.age = age;
@@ -25,6 +27,14 @@ class ClassInheritanceAnimal {
     this.age = age;
   }
 
+  public void eat() {
+    System.out.println("Animal is eating");
+  }
+
+  public double getAverageWeight() {
+    return 10.0;
+  }
+
   public void print() {
     System.out.println("name= " + name + " age= " + age);
   }
@@ -32,37 +42,131 @@ class ClassInheritanceAnimal {
 
 class ClassInheritanceDog extends ClassInheritanceAnimal {
 
-  public ClassInheritanceDog(int age) {
-    super(age);
-    System.out.println("Dog" + " " + age);
+  public ClassInheritanceDog() {
+    super();
+    System.out.println("Dog");
+  }
+
+  @Override // optional
+  public void eat() {
+    super.eat();
+    System.out.println("Dog is eating");
+  }
+
+  public double getAverageWeight() { 
+    return super.getAverageWeight() + 20; // super calls the parent method
   }
 }
 
 class ClassInheritanceHusky extends ClassInheritanceDog {
 
-  public ClassInheritanceHusky(int age) {
-    super(age);
+  public ClassInheritanceHusky() {
+    super();
     System.out.println("Husky");
+  }
+
+  @Override // cannot override final methods
+  public void eat() {
+    super.eat();
+    System.out.println("Husky is eating");
   }
 }
 
 class ClassInheritanceCat extends ClassInheritanceAnimal {
 
-  public ClassInheritanceCat(int age) {
-    super(age);
+  public ClassInheritanceCat() {
+    super();
     System.out.println("Cat");
+  }
+}
+
+class ClassInheritanceRabbit extends ClassInheritanceAnimal {
+
+  public ClassInheritanceRabbit() {
+    // super; // DOES NOT COMPILE
+    // super().setAge(3); // DOES NOT COMPILE
+
+    super();
+    super.setAge(3);
+    this.setAge(3);
+    setAge(3);
+  }
+
+  public ClassInheritanceRabbit(int age) {
+    // this(age); // recursive call
+    // this(); // recursive call
+
+    // super();
+    // this();
+    // setAge(3);
+    // super(3);
+    // super(age);
+  }
+}
+
+class ClassInheritanceBird {
+
+  public void fly() {
+    System.out.println("Bird is flying");
+  }
+
+  public void eat(int amount) {
+    System.out.println("Bird is eating" + amount + " units of food");
+  }
+}
+
+class ClassInheritanceEagle extends ClassInheritanceBird {
+
+  // overloading - same method name, different parameters
+  public int fly(int height) {
+    System.out.println("Eagle is flying " + height + " meters");
+    return height;
+  }
+
+  // @Override
+  // public int eat(int amount) { // DOES NOT COMPILE
+  //   return amount;
+  // }
+}
+
+class ClassInheritanceReptile {
+
+  protected boolean hasLegs() {
+    return true;
+  }
+
+  protected double getWeight() {
+    return 2.0;
+  }
+}
+
+class ClassInheritanceSnake extends ClassInheritanceReptile {
+
+  @Override
+  protected boolean hasLegs() {
+    return false;
+  }
+
+  @Override
+  public double getWeight() { // can not be more restrictive i.e. protected -> private
+    return 10.0;
   }
 }
 
 public class ClassInheritance {
   
   public static void main(String[] args) {
-    new ClassInheritanceHusky(5); // Animal Dog Husky
-    new ClassInheritanceCat(6); // Animal Cat
+    ClassInheritanceHusky husky = new ClassInheritanceHusky(); // Animal Dog Husky
+    new ClassInheritanceCat(); // Animal Cat
 
-    ClassInheritanceDog dog = new ClassInheritanceDog(3); 
+    ClassInheritanceDog dog = new ClassInheritanceDog(); 
 
     dog.setName("Rex");
-    dog.print();
+    dog.setAge(3);
+    dog.print(); // name= Rex age= 3
+
+    husky.eat(); // Animal is eating, Dog is eating, Husky is eating
+    System.out.println(husky.getAverageWeight()); // 30.0
+
   }
 }
