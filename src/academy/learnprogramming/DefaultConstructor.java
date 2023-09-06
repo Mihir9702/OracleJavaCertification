@@ -1,5 +1,7 @@
 package academy.learnprogramming;
 
+class DefaultConstructorDog {}
+
 public class DefaultConstructor {
 
   public static void main(String[] args) {
