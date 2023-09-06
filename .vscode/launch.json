@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MethodsWithExceptions",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.MethodsWithExceptions",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "CatchWithReturn",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.CatchWithReturn",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "CatchingExceptions",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.CatchingExceptions",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "UsingFinally",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.UsingFinally",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "DealingWithException",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.DealingWithException",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "CheckedVsUnchecked",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.CheckedVsUnchecked",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "DoWhileLoop",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.DoWhileLoop",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
+      "name": "WhileLoop",
+      "request": "launch",
+      "mainClass": "academy.learnprogramming.WhileLoop",
+      "projectName": "OracleJavaCertification_fe237540"
+    },
+    {
+      "type": "java",
       "name": "TernaryOperator",
       "request": "launch",
       "mainClass": "academy.learnprogramming.TernaryOperator",
